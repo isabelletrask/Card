@@ -21,6 +21,10 @@ public class CardDealer
         
         Card object = new Card("Clbs", 8);
         object.setSuit("Diamonds");   
-         System.out.println("your card is a "+object.getSuit());     
+         System.out.println("your card is a "+object.getSuit());    
+         
+         Card object2 = new Card();
+         object2.setSuit("Hearts");
+         System.out.println("your suit is "+object2.getSuit());
     }
 }
