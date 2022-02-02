@@ -1,5 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
+ * Name: Isabelle Trask
+* Student #: 991644879
+*To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
@@ -15,5 +17,8 @@ public class CardDealer
     {
         Card nineClubs = new Card("Clbs", 9);
         nineClubs.setSuit("diamonds");
+        
+        
+        Card object = new Card();
     }
 }
