@@ -20,7 +20,7 @@ public class CardDealer
         
         
         Card object = new Card("Clbs", 8);
-        object.setSuit("Clubs");   
+        object.setSuit("Diamonds");   
          System.out.println("your card is a "+object.getSuit());     
     }
 }
