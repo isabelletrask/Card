@@ -19,6 +19,8 @@ public class CardDealer
         nineClubs.setSuit("diamonds");
         
         
-        Card object = new Card();
+        Card object = new Card("Clbs", 8);
+        object.setSuit("Clubs");   
+         System.out.println("your card is a "+object.getSuit());     
     }
 }
